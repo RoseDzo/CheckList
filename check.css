@@ -1,4 +1,4 @@
-/* General page styling */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #1762ad;
@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-/* Container for the app */
+
 .container {
     background: #e5b6b6;
     padding: 30px 40px;
@@ -17,14 +17,14 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* App header */
+
 .todo-app h2 {
     text-align: center;
     color: #333;
     margin-bottom: 20px;
 }
 
-/* Input row styling */
+
 .row {
     display: flex;
     gap: 10px;
@@ -32,7 +32,7 @@ body {
     flex-wrap: wrap;
 }
 
-/* Input box */
+
 #input-box {
     flex: 1;
     min-width: 200px;
@@ -42,7 +42,6 @@ body {
     font-size: 16px;
 }
 
-/* Buttons */
 button {
     padding: 10px 15px;
     border: none;
@@ -58,7 +57,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Task list styling */
+
 #list-container {
     list-style: none;
     padding: 0;
@@ -67,7 +66,7 @@ button:hover {
     overflow-y: auto;
 }
 
-/* Individual task items */
+
 #list-container li {
     background: #f9f9f9;
     padding: 12px 10px;
@@ -87,7 +86,7 @@ button:hover {
     color: gray;
 }
 
-/* Edit input field (when editing a task) */
+
 .edit-input {
     width: 100%;
     padding: 8px;
