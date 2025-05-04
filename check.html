@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roselyn's CHECK LIST</title>
+    <link rel="stylesheet" href="check.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>Check List</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add a new task here....">
+                <button onclick="addTask()" id="add-button">Add</button>
+                <button onclick="deleteTask()" id="delete-task">Delete</button>
+                <button onclick="editTask()" id="edit-input">Edit</button>
+                        </div>
+            <ul id="list-container">
+                <!-- <li class="checked" >Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+
+            </ul>
+        </div>
+    </div>
+    <script src="check.js"></script>
+    
+</body>
+</html>
